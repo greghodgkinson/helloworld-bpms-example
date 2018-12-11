@@ -1,8 +1,9 @@
 pipeline {			
       agent {			
      			
-     	label 'buildconductor-bpm'					
-     			
+     	label 'buildconductor-bpm'
+					
+      }
      stages {     			
          			
          stage('Build') {      			        			
