@@ -8,7 +8,7 @@ pipeline {
          			
          stage('Build') {      			        			
              steps {			                                			
-             	sh '/buildconductor/bpm/run-automation.sh buildBpm HW 0.80 Main 10.0.10.166 20005 ghodgkinson ghodgkinson Staging ghodgkinson passw0rd ${BUILD_NUMBER} ${BUILD_URL} ${NODE_NAME}'               			
+             	sh '/buildconductor/bpm/run-automation.sh buildBpm HW 0.81 Main 10.0.10.166 20005 ghodgkinson ghodgkinson Staging ghodgkinson passw0rd ${BUILD_NUMBER} ${BUILD_URL} ${NODE_NAME}'               			
              }			
          }			
          			
